@@ -1,0 +1,5 @@
+The model has 188,608 trainable parameters
+
+Epoch 1/3                                        Teacher Forcing Ratio: 0.3000
+--------------------------------------------------------------------------------
+Training Batches:   4%|▍         | 224/5910 [00:03<01:29, 63.71it/s, loss=2.78]

@@ -1,0 +1,109 @@
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_setup.py:_flush():68] Configure stats pid to 48644
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_setup.py:_flush():68] Loading settings from /Users/indramandal/.config/wandb/settings
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_setup.py:_flush():68] Loading settings from /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/settings
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/run-20250504_175642-nwbwi8v2/logs/debug.log
+2025-05-04 17:56:42,133 INFO    Thread-23 :48644 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/run-20250504_175642-nwbwi8v2/logs/debug-internal.log
+2025-05-04 17:56:42,134 INFO    Thread-23 :48644 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x315275130>
+2025-05-04 17:56:42,134 INFO    Thread-23 :48644 [wandb_init.py:init():852] calling init triggers
+2025-05-04 17:56:42,134 INFO    Thread-23 :48644 [wandb_init.py:init():857] wandb.init called with sweep_config: {'beam_width': 1, 'bidirectional': True, 'dec_layers': 1, 'dropout': 0.2, 'emb_size': 64, 'enc_layers': 2, 'epochs': 3, 'hidden_size': 64, 'layer_type': 'gru', 'learning_rate': 0.001, 'teacher_force_ratio': 0.3, 'val_beam_search': True}
+config: {'_wandb': {}}
+2025-05-04 17:56:42,134 INFO    Thread-23 :48644 [wandb_init.py:init():893] starting backend
+2025-05-04 17:56:42,134 INFO    Thread-23 :48644 [wandb_init.py:init():897] sending inform_init request
+2025-05-04 17:56:42,173 INFO    Thread-23 :48644 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-04 17:56:42,173 INFO    Thread-23 :48644 [wandb_init.py:init():907] backend started and connected
+2025-05-04 17:56:42,174 INFO    Thread-23 :48644 [wandb_run.py:_config_callback():1429] config_cb None None {'beam_width': 1, 'bidirectional': True, 'dec_layers': 1, 'dropout': 0.2, 'emb_size': 64, 'enc_layers': 2, 'epochs': 3, 'hidden_size': 64, 'layer_type': 'gru', 'learning_rate': 0.001, 'teacher_force_ratio': 0.3, 'val_beam_search': True}
+2025-05-04 17:56:42,176 INFO    Thread-23 :48644 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-04 17:56:42,177 INFO    Thread-23 :48644 [wandb_init.py:init():1002] updated telemetry
+2025-05-04 17:56:42,194 INFO    Thread-23 :48644 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-04 17:56:44,397 INFO    Thread-23 :48644 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-04 17:56:44,489 INFO    Thread-23 :48644 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-04 17:56:44,489 INFO    Thread-23 :48644 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-04 17:56:44,489 INFO    Thread-23 :48644 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-04 17:56:44,489 INFO    Thread-23 :48644 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-04 17:56:44,493 INFO    Thread-23 :48644 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-04 17:56:50,309 INFO    MainThread:48644 [wandb_init.py:_post_run_cell_hook():613] [no run ID] resuming backend
+2025-05-04 17:56:50,310 INFO    Thread-23 :48644 [wandb_run.py:_finish():2314] finishing run ed24s014-indian-institute-of-technology-madras/test_seq2seq_without_Attention/nwbwi8v2
+2025-05-04 17:56:50,310 WARNING MsgRouterThr:48644 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 208, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 235, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 212, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 56, in message_loop
+    msg = self._read_message()
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-05-04 17:56:50,320 INFO    MsgRouterThr:48644 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [jupyter.py:save_history():477] not saving jupyter history
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 1
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [wandb_run.py:_restore():2513] restore
+2025-05-04 17:56:50,396 INFO    Thread-23 :48644 [wandb_run.py:_restore():2519] restore done
+2025-05-04 17:56:50,397 INFO    Thread-23 :48644 [wandb_run.py:_restore():2513] restore
+2025-05-04 17:56:50,397 INFO    Thread-23 :48644 [wandb_run.py:_restore():2519] restore done
+2025-05-04 17:56:50,397 ERROR   Thread-23 :48644 [wandb_run.py:_atexit_cleanup():2552] Problem finishing run
+Traceback (most recent call last):
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/var/folders/16/2v843_gd4x1cty4mwj7r2t780000gn/T/ipykernel_48644/3870340499.py", line 25, in train_wandb_model
+    seq2seq, train_model, evaluate_model, loss_acc_logs, _ = model.build(
+  File "/var/folders/16/2v843_gd4x1cty4mwj7r2t780000gn/T/ipykernel_48644/3479093571.py", line 108, in build
+    train_loss, train_char_acc, train_seq_acc = train_model.train(teacher_force_ratio=current_tfr)
+  File "/var/folders/16/2v843_gd4x1cty4mwj7r2t780000gn/T/ipykernel_48644/544483360.py", line 37, in train
+    output = self.seq2seq(input_batch, target_batch, teacher_force_ratio)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/var/folders/16/2v843_gd4x1cty4mwj7r2t780000gn/T/ipykernel_48644/329109780.py", line 124, in forward
+    output, hidden, cell = self.decoder(x, hidden, cell)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/var/folders/16/2v843_gd4x1cty4mwj7r2t780000gn/T/ipykernel_48644/329109780.py", line 72, in forward
+    embed = self.embed(inputs)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/torch/nn/functional.py", line 2233, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+Exception
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2543, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2790, in _on_finish
+    exit_handle = self._backend.interface.deliver_exit(self._exit_code)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 1006, in deliver_exit
+    return self._deliver_exit(exit_data)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 436, in _deliver_exit
+    return self._deliver_record(record)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 389, in _deliver_record
+    handle = mailbox.require_response(record)
+  File "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/env3/lib/python3.9/site-packages/wandb/sdk/mailbox/mailbox.py", line 68, in require_response
+    raise MailboxClosedError()
+wandb.sdk.mailbox.mailbox.MailboxClosedError
