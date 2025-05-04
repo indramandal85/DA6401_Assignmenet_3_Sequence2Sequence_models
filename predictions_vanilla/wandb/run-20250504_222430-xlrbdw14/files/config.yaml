@@ -1,0 +1,52 @@
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 1
+                - 2
+                - 14
+                - 17
+                - 23
+                - 55
+            "4": 3.9.6
+            "5": 0.19.10
+            "8":
+                - 1
+                - 5
+            "10":
+                - 3
+            "12": 0.19.10
+            "13": darwin-arm64
+beam_width:
+    value: 1
+bidirectional:
+    value: false
+dec_layers:
+    value: 1
+dropout:
+    value: 0.2
+emb_size:
+    value: 32
+enc_layers:
+    value: 1
+epochs:
+    value: 2
+hidden_size:
+    value: 256
+layer_type:
+    value: lstm
+learning_rate:
+    value: 0.0005
+teacher_force_ratio:
+    value: 1
+val_beam_search:
+    value: false

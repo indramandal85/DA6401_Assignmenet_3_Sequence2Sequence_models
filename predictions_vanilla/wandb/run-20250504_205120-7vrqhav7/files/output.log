@@ -1,0 +1,19 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+The model has 37,152 trainable parameters
+
+Epoch 1/1                                        Teacher Forcing Ratio: 0.5000
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 5910/5910 [00:40<00:00, 146.26it/s, loss=2.05]
+Train Loss: 2.5639 | Train Char Acc: 0.3554 | Train Seq Acc: 0.0040
+Evaluation Batches: 100%|██████████| 580/580 [00:02<00:00, 280.38it/s, loss=2.62]
+Val   Loss: 2.3993 | Val Char Acc: 0.3993 | Val Seq Acc: 0.0145
+Validation improved, but waiting to confirm best over next 3 epochs...
+
+Epoch Time: 0.0m 42.48677206039429s
+
+Training ended before confirming best model due to patience.
+
+++++++++++++++++++++++++<Training Ended after 1 Epochs>++++++++++++++++++++++++
+
+ No test evaluation triggered. To evaluate, set `testing_phase=True`.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

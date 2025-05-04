@@ -1,0 +1,26 @@
+wandb_version: 1
+
+beam_width:
+  value: 5
+bidirectional:
+  value: false
+dec_layers:
+  value: 1
+dropout:
+  value: 0.2
+emb_size:
+  value: 32
+enc_layers:
+  value: 1
+epochs:
+  value: 1
+hidden_size:
+  value: 32
+layer_type:
+  value: gru
+learning_rate:
+  value: 0.0001
+teacher_force_ratio:
+  value: 0.7
+val_beam_search:
+  value: false

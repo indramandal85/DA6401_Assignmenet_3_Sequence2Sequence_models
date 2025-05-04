@@ -1,0 +1,29 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'emb_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'layer_type' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'hidden_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'enc_layers' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'dec_layers' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'dropout' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'teacher_force_ratio' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'epochs' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'bidirectional' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'beam_width' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'val_beam_search' was locked by 'sweep' (ignored update).
+The model has 1,370,688 trainable parameters
+
+Epoch 1/5                                        Teacher Forcing Ratio: 0.5000
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 2955/2955 [01:42<00:00, 28.91it/s, loss=3.16]
+Train Loss: 3.0627 | Train Char Acc: 0.2082 | Train Seq Acc: 0.0000
+Evaluation Batches: 100%|██████████| 290/290 [00:18<00:00, 15.55it/s, loss=3.31]
+Val   Loss: 3.3028 | Val Char Acc: 0.1047 | Val Seq Acc: 0.0000
+Validation improved, but waiting to confirm best over next 3 epochs...
+
+Epoch Time: 2.0m 0.8616490364074707s
+
+Epoch 2/5                                        Teacher Forcing Ratio: 0.4756
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 2955/2955 [01:43<00:00, 28.62it/s, loss=2.65]
+Train Loss: 2.8877 | Train Char Acc: 0.2561 | Train Seq Acc: 0.0000
+Evaluation Batches:  32%|███▏      | 92/290 [00:07<00:15, 12.96it/s, loss=3.37]

@@ -1,0 +1,18 @@
+The model has 193,088 trainable parameters
+
+Epoch 1/1                                        Teacher Forcing Ratio: 0.3000
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 5910/5910 [00:50<00:00, 117.17it/s, loss=1.94]
+Train Loss: 2.5005 | Train Char Acc: 0.3558 | Train Seq Acc: 0.0102
+Evaluation Batches: 100%|██████████| 580/580 [00:02<00:00, 200.61it/s, loss=2.37]
+Val   Loss: 2.2219 | Val Char Acc: 0.4058 | Val Seq Acc: 0.0286
+Validation improved, but waiting to confirm best over next 3 epochs...
+
+Epoch Time: 0.0m 53.33333396911621s
+
+Training ended before confirming best model due to patience.
+
+++++++++++++++++++++++++<Training Ended after 1 Epochs>++++++++++++++++++++++++
+
+ No test evaluation triggered. To evaluate, set `testing_phase=True`.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

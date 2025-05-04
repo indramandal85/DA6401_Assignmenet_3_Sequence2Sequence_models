@@ -1,0 +1,35 @@
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_setup.py:_flush():68] Configure stats pid to 52887
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_setup.py:_flush():68] Loading settings from /Users/indramandal/.config/wandb/settings
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_setup.py:_flush():68] Loading settings from /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/settings
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/run-20250504_191829-ppuuii20/logs/debug.log
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/predictions_vanilla/wandb/run-20250504_191829-ppuuii20/logs/debug-internal.log
+2025-05-04 19:18:29,829 INFO    Thread-8  :52887 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x30ca54490>
+2025-05-04 19:18:29,830 INFO    Thread-8  :52887 [wandb_init.py:init():852] calling init triggers
+2025-05-04 19:18:29,830 INFO    Thread-8  :52887 [wandb_init.py:init():857] wandb.init called with sweep_config: {'beam_width': 5, 'bidirectional': True, 'dec_layers': 2, 'dropout': 0.2, 'emb_size': 256, 'enc_layers': 2, 'epochs': 1, 'hidden_size': 256, 'layer_type': 'lstm', 'learning_rate': 0.0005, 'teacher_force_ratio': 0.3, 'val_beam_search': True}
+config: {'_wandb': {}}
+2025-05-04 19:18:29,830 INFO    Thread-8  :52887 [wandb_init.py:init():893] starting backend
+2025-05-04 19:18:29,830 INFO    Thread-8  :52887 [wandb_init.py:init():897] sending inform_init request
+2025-05-04 19:18:29,854 INFO    Thread-8  :52887 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-04 19:18:29,854 INFO    Thread-8  :52887 [wandb_init.py:init():907] backend started and connected
+2025-05-04 19:18:29,856 INFO    Thread-8  :52887 [wandb_run.py:_config_callback():1429] config_cb None None {'beam_width': 5, 'bidirectional': True, 'dec_layers': 2, 'dropout': 0.2, 'emb_size': 256, 'enc_layers': 2, 'epochs': 1, 'hidden_size': 256, 'layer_type': 'lstm', 'learning_rate': 0.0005, 'teacher_force_ratio': 0.3, 'val_beam_search': True}
+2025-05-04 19:18:29,858 INFO    Thread-8  :52887 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-04 19:18:29,859 INFO    Thread-8  :52887 [wandb_init.py:init():1002] updated telemetry
+2025-05-04 19:18:29,874 INFO    Thread-8  :52887 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-04 19:18:30,937 INFO    Thread-8  :52887 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-04 19:18:31,018 INFO    Thread-8  :52887 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-04 19:18:31,018 INFO    Thread-8  :52887 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-04 19:18:31,019 INFO    Thread-8  :52887 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-04 19:18:31,019 INFO    Thread-8  :52887 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-04 19:18:31,020 INFO    Thread-8  :52887 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-04 19:30:14,060 INFO    Thread-8  :52887 [wandb_run.py:_finish():2314] finishing run ed24s014-indian-institute-of-technology-madras/test_seq2seq_without_Attention/ppuuii20
+2025-05-04 19:30:14,105 INFO    Thread-8  :52887 [jupyter.py:save_history():477] not saving jupyter history
+2025-05-04 19:30:14,105 INFO    Thread-8  :52887 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-05-04 19:30:14,105 INFO    Thread-8  :52887 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-05-04 19:30:14,105 INFO    Thread-8  :52887 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 1
+2025-05-04 19:30:14,106 INFO    Thread-8  :52887 [wandb_run.py:_restore():2513] restore
+2025-05-04 19:30:14,106 INFO    Thread-8  :52887 [wandb_run.py:_restore():2519] restore done
+2025-05-04 19:30:17,242 INFO    Thread-8  :52887 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-04 19:30:17,242 INFO    Thread-8  :52887 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-04 19:30:17,243 INFO    Thread-8  :52887 [wandb_run.py:_footer_sync_info():4121] logging synced files
