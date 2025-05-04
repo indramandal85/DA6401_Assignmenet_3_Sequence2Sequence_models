@@ -1,0 +1,38 @@
+The model has 36,909 trainable parameters
+
+Epoch 1/3
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 580/580 [00:03<00:00, 160.95it/s, loss=2.62]
+Train Loss: 3.0226 | Train Char Acc: 0.2325 | Train Seq Acc: 0.0000
+Evaluation Batches: 100%|██████████| 580/580 [00:30<00:00, 19.29it/s, loss=3.55]
+Val   Loss: 3.3709 | Val Char Acc: 0.1481 | Val Seq Acc: 0.0001
+Validation improved, but waiting to confirm best over next 3 epochs...
+
+Epoch Time: 0.0m 33.67708206176758s
+
+Epoch 2/3
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 580/580 [00:03<00:00, 163.93it/s, loss=2.27]
+Train Loss: 2.5260 | Train Char Acc: 0.3571 | Train Seq Acc: 0.0002
+Evaluation Batches: 100%|██████████| 580/580 [00:32<00:00, 17.72it/s, loss=3.99]
+Val   Loss: 3.5189 | Val Char Acc: 0.1909 | Val Seq Acc: 0.0010
+ No improvement. Patience: 1/3
+
+Epoch Time: 0.0m 36.263571977615356s
+
+Epoch 3/3
+--------------------------------------------------------------------------------
+Training Batches: 100%|██████████| 580/580 [00:03<00:00, 166.52it/s, loss=2.14]
+Train Loss: 2.2821 | Train Char Acc: 0.4278 | Train Seq Acc: 0.0015
+Evaluation Batches: 100%|██████████| 580/580 [00:31<00:00, 18.52it/s, loss=3.57]
+Val   Loss: 3.4628 | Val Char Acc: 0.2297 | Val Seq Acc: 0.0045
+ No improvement. Patience: 2/3
+
+Epoch Time: 0.0m 34.802984952926636s
+
+Training ended before confirming best model due to patience.
+
+++++++++++++++++++++++++<Training Ended after 3 Epochs>++++++++++++++++++++++++
+
+ No test evaluation triggered. To evaluate, set `testing_phase=True`.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

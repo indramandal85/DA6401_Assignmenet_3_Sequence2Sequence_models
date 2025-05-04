@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+The model has 146,797 trainable parameters
+
+Epoch 1/30
+--------------------------------------------------------------------------------
+Training Batches:   0%|          | 0/580 [00:00<?, ?it/s]
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

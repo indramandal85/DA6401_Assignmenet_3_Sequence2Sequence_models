@@ -1,0 +1,1 @@
+{"beam_search":true,"_timestamp":1.746310628694259e+09,"val_seq_acc":0.04741890289901929,"val_loss":2.2337421855022166,"train_loss":1.9392969733682173,"_runtime":996.096162,"train_char_acc":0.5163446946392682,"beam_width":3,"_step":0,"train_seq_acc":0.03470201530337321,"_wandb":{"runtime":996},"val_char_acc":0.3943507922836088}

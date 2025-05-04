@@ -1,0 +1,8 @@
+Run Name: seq2seq/rnn-emb256-hid16-enc1-dec1-bidir0-drop0.2
+The model has 33,101 trainable parameters
+
+Epoch 1/20
+--------------------------------------------------------------------------------
+Training Batches:   0%|          | 0/580 [00:00<?, ?it/s]
+Error in training function: name 'vocab_out' is not defined
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

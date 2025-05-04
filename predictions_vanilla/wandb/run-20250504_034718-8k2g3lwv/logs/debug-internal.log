@@ -1,0 +1,16 @@
+{"time":"2025-05-04T03:47:18.035015+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/wandb/run-20250504_034718-8k2g3lwv/logs/debug-core.log"}
+{"time":"2025-05-04T03:47:18.737091+05:30","level":"INFO","msg":"created new stream","id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:18.737125+05:30","level":"INFO","msg":"stream: started","id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:18.737137+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:18.737146+05:30","level":"INFO","msg":"handler: started","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:18.737168+05:30","level":"INFO","msg":"sender: started","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:19.130142+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-04T03:47:19.64656+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T03:47:19.646586+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T03:47:20.65943+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":1.129475625,"progress":"1.3KB/1.3KB"},{"desc":"uploading data","runtime_seconds":0.475208334},{"desc":"updating run config","runtime_seconds":0.330535916}],"total_operations":3}}
+{"time":"2025-05-04T03:47:22.553085+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T03:47:23.121442+05:30","level":"INFO","msg":"stream: closing","id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:23.121514+05:30","level":"INFO","msg":"handler: closed","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:23.121548+05:30","level":"INFO","msg":"sender: closed","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:23.121544+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8k2g3lwv"}
+{"time":"2025-05-04T03:47:23.122072+05:30","level":"INFO","msg":"stream: closed","id":"8k2g3lwv"}

@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.4.1-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-05-03T22:17:50.596531Z",
+  "program": "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/seq2seq_without_Attention.ipynb",
+  "codePath": "seq2seq_without_Attention.ipynb",
+  "git": {
+    "remote": "https://github.com/indramandal85/DA6401_Assignmenet_3_Sequence2Sequence_models.git",
+    "commit": "1f18a45e7df90fd958fb751ce90359fd42a47389"
+  },
+  "email": "ed24s014@smail.iitm.ac.in",
+  "root": "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3",
+  "host": "INDRAs-MacBook-Air.local",
+  "executable": "/Users/indramandal/Documents/VS_CODE/DA6401/DA6401_Assignment_3/env3/bin/python",
+  "codePathLocal": "seq2seq_without_Attention.ipynb",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "163535814656"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "163535814656"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 10
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "17179869184"
+  }
+}
