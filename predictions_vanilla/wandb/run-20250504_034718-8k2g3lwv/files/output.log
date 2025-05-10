@@ -1,9 +1,0 @@
-The model has 90,845 trainable parameters
-
-Epoch 1/30
---------------------------------------------------------------------------------
-Training Batches:   0%|          | 0/580 [00:00<?, ?it/s]
-Decoder RNN Exception: Expected hidden[0] size (6, 16, 32), got [2, 16, 32]
-Embed shape: torch.Size([16, 1, 32])
-Hidden shape: torch.Size([2, 16, 32])
-[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.
