@@ -1,0 +1,8 @@
+wheel==0.45.1
+numpy==2.0.2
+pandas==2.2.3
+torch==2.7.0
+Pillow==11.2.1
+tqdm==4.65.0
+matplotlib==3.8.0
+wandb==0.15.7
